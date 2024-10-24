@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Pac-man</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script> <!-- Use 'defer' to ensure app.js is loaded after HTML -->
+  </head>
+  <body>
+    <div style="display: flex; align-items: flex-start;">
+      <div>
+        <div class="grid"></div>
+        <h3>Score: <span id="score"></span></h3>
+
+        <!-- Add a button to trigger serial port request -->
+        <button id="connect-button">Connect Joystick</button>
+      </div>
+
+      <div style="font-size: 24px; line-height: 1.5; color: #333; margin-left: 100px;">
+        <h2>Game Controls:</h2>
+        <p>Use the joystick to move Pac-Man: <strong>up, down, left, right</strong></p>
+        <p>Press the button to <strong>Pause/Resume</strong> the game</p>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
+
