@@ -3,11 +3,23 @@
 This project recreates the classic Pac-Man game with a modern, interactive twist, using an ESP32 joystick and button setup. Inspired by childhood memories of Pac-Man and created with the help of open-source JavaScript resources, this version uses real joystick controls for a fun, arcade-like experience.
 
 ## Supplies
-- ESP32 microcontroller
-- Joystick module
+- ESP32
+- Joystick
 - Push button
 - 3D-printed joystick enclosure (STL files provided)
 - USB cable for power and data transfer
+
+## Setup
+
+1. **ESP32 Pin Connections**:
+   - **Joystick**:
+     - X-axis to analog pin `39`
+     - Y-axis to analog pin `32`
+   - **Push Button**:
+     - Connect to digital pin `2` for pause/resume
+
+2. **Power**:
+   - Connect the ESP32 to your computer via USB for power and data transfer.
 
 ## Usage
 
